@@ -6,7 +6,7 @@ body {
 }
 
 body > * {
-    padding: 0 48px;
+    padding: 0 15vw;
 }
 
 ul {
@@ -15,28 +15,128 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar {
+    padding-top: 16px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 96px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .links {
     display: flex;
-    gap: 16px;
+    gap: 16px;;
 }
 
 .card-container {
     background-color: #1F2937;
+    display: flex;
+    gap: 48px;
+    height: 250px;
+    padding-bottom: 98px;
 }
 
-.card-text h2 {
+.card-text {
+    width: 33vw;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
+}
+
+.card-button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 114px;
+    color: white;
+    padding: 8px;
+}
+
+.card-image {
+    width: 33vw;
+    color: white;
+    display: flex;
+    background-color: #6d747d;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
 
+.info-title {
+    margin: 48px;
+    font-size: 36px;
+}
+
+.boxes {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-box1,
+.image-box2,
+.image-box3,
+.image-box4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.image-box1 {
+    background: linear-gradient(to left, #bdc3c7, #2c3e50);
+}
+
+.image-box2 {
+    background: linear-gradient(to right, #b92b27, #1565c0);
+}
+
+.image-box3 {
+    background: linear-gradient(to right, #373b44, #4286f4);
+}
+
+.image-box4 {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.box-p {
+    text-align: center;
 }
 
 .quote {
