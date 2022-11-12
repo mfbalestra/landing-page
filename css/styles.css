@@ -17,7 +17,8 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .navbar {
@@ -32,11 +33,12 @@ a {
 .logo {
     font-weight: 700;
     font-size: 24px;
+    color: #f9faf8;
 }
 
 .links {
     display: flex;
-    gap: 16px;;
+    gap: 16px;
 }
 
 .card-container {
@@ -54,6 +56,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 18px;
 }
 
 .card-title {
@@ -62,13 +65,15 @@ a {
     margin: 0;
 }
 
-.card-button {
+.card-button,
+.cta-button {
     background-color: #3882F6;
     border-color: #3882F6;
     border-radius: 10px;
     width: 114px;
     color: white;
     padding: 8px;
+    font-weight: 700;
 }
 
 .card-image {
@@ -85,12 +90,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    height: 500px;
 }
 
 .info-title {
     margin: 48px;
     font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .boxes {
@@ -137,12 +144,81 @@ a {
 
 .box-p {
     text-align: center;
+    padding: 2px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+.quote-limits {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote {
-    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.intelectual {
+    margin-top: 0;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.cta-text > * {
+    padding: 0;
+    margin: 0;
+}
+
+.cta-text p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cta-button {
+    border-color: white;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    color: white;
+    height: 80px;
 }
